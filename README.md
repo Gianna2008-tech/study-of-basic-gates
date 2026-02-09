@@ -63,17 +63,30 @@ Y= A⊕B
 
 
 **PROGRAM**
+module exp1(a,b,c,d,e,x,y,x);
+input a,b;
+output c,d,e;
+and (c,a,b);
+or(d,a,b);
+xor(e,a,b);
+nand(x,a,b);
+nor(y,a,b);
+xnor(z,a,b);
+endmodule
 
-Program for logic gates and verify its truth table in quartus using Verilog programming
-
- Developed by: RegisterNumber: 
+ Developed by: RegisterNumber: 25011912
  
 **Logic symbol & Truthtable**
+<img width="1246" height="744" alt="Screenshot 2026-02-09 230441" src="https://github.com/user-attachments/assets/c1f07fd6-060e-4f37-bf11-9081982d9b55" />
 
 **RTL realization Output:** 
+<img width="887" height="722" alt="Screenshot 2026-02-09 225544" src="https://github.com/user-attachments/assets/e02bf789-978a-4d7b-a760-07bb8e711568" />
+
 
 **RTL**
+<img width="1917" height="963" alt="Screenshot 2026-02-09 225520" src="https://github.com/user-attachments/assets/4182d60f-f378-4fc5-aa2a-a8c9c39bacbe" />
+
 
 **Result:**
-
+Thus the truth table of logic gates in Quartus II using Verilog programming is studied and verified successfully
 
